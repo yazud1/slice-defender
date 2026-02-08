@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Qt / QtCreator
+*.pro.user*
+*.qtc_clangd
+*.moc
+*.o
+*.obj
+
+# Build folders
+build*/
+cmake-build*/
+out/
+bin/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
