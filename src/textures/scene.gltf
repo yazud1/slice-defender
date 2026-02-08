@@ -1,0 +1,299 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2415,
+      "max": [
+        0.09093534201383591,
+        1.0036396980285645,
+        0.012144215404987335
+      ],
+      "min": [
+        -0.046568144112825394,
+        -0.15091049671173096,
+        -0.012144159525632858
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 28980,
+      "componentType": 5126,
+      "count": 2415,
+      "max": [
+        0.9999626278877258,
+        0.9970318078994751,
+        1.0
+      ],
+      "min": [
+        -0.9998940229415894,
+        -0.9977286458015442,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2415,
+      "max": [
+        0.9998233318328857,
+        0.9999983906745911,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.9998185038566589,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2415,
+      "max": [
+        0.9765141010284424,
+        0.9801729917526245
+      ],
+      "min": [
+        0.026124902069568634,
+        0.023704171180725098
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 10374,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "LucasPresoto (https://sketchfab.com/LucasPresoto)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/yone-sword-dd3649790a7f43d5bfcd391e77dee344",
+      "title": "Yone Sword"
+    },
+    "generator": "Sketchfab-14.30.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 41496,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 19320,
+      "byteOffset": 41496,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 57960,
+      "byteOffset": 60816,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 38640,
+      "byteOffset": 118776,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 157416,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/YoneSword_baseColor.png"
+    },
+    {
+      "uri": "textures/YoneSword_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/YoneSword_emissive.png"
+    },
+    {
+      "uri": "textures/YoneSword_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 2
+      },
+      "name": "YoneSword",
+      "normalTexture": {
+        "index": 3
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Yone_Sword_YoneSword_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.764938473701477,
+        0.6441033482551575,
+        1.430196734942063e-16,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        -0.6441033482551575,
+        0.764938473701477,
+        1.6985046118500092e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "8b211a4147234c2da3c1bd7431083d78.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        -0.9999999999999964,
+        1.2246467991473515e-16,
+        8.742278000372476e-08,
+        0.0,
+        -3.698906412640348e-15,
+        0.999999999999999,
+        -4.371138840920244e-08,
+        0.0,
+        -8.742278000372468e-08,
+        -4.37113884092026e-08,
+        -0.9999999999999956,
+        0.0,
+        3.606174914239091e-08,
+        -1.8850414562621154e-06,
+        1.2055042519776293e-09,
+        1.0
+      ],
+      "name": "Yone_Sword"
+    },
+    {
+      "mesh": 0,
+      "name": "Yone_Sword_YoneSword_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}

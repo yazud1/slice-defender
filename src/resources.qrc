@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/fireball.png</file>
+        <file>images/fleche.png</file>
+        <file>images/fond_boutton.png</file>
+        <file>images/fond_mc.png</file>
+        <file>images/grass_block_top.png</file>
+        <file>images/herobrine.png</file>
+        <file>images/minecraft_font.ttf</file>
+        <file>images/minecraft_sky.jpg</file>
+        <file>images/obsidienne.jpg</file>
+        <file>images/portail.jpg</file>
+        <file>images/sabre.jpg</file>
+        <file>images/sabre.png</file>
+        <file>images/sabre_mc.png</file>
+        <file>images/stone_bricks.jpg</file>
+        <file>images/tnt.png</file>
+    </qresource>
+</RCC>

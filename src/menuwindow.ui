@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MenuWindow</class>
+ <widget class="QWidget" name="MenuWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>470</width>
+    <height>421</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <widget class="QLabel" name="titleLabel">
+     <property name="maximumSize">
+      <size>
+       <width>9999</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Minecraft Slice Defender</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="descLabel">
+     <property name="text">
+      <string>Fait par
+Younès Tadili
+Yazid El Mahi
+</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="startButton">
+     <property name="maximumSize">
+      <size>
+       <width>99999</width>
+       <height>45</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Nouvelle Partie</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="quitButton">
+     <property name="maximumSize">
+      <size>
+       <width>9999</width>
+       <height>45</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Quitter le jeu</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
